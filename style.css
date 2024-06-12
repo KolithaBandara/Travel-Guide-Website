@@ -1,0 +1,26 @@
+body{
+    background-image: url(assets/img/beautiful-girl-sitting-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.the-blur{
+    position: fixed;
+    top:0;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.586);
+    z-index:1010;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+
+li{
+    color: aliceblue;
+}
